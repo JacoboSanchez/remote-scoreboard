@@ -3,9 +3,9 @@
 
 Pre-requisites:
 ---------------
-*   Python 3.x
-*   An account on _overlays.uno_
-*   A volleyball scoreboard overlay added to your account from the _overlays.uno_ library.
+* Python 3.x
+* An account on _overlays.uno_
+* A volleyball scoreboard overlay added to your account from the _overlays.uno_ library.
 
 **Instructions to create an overlay:**
 * Login to your _overlays.uno_ account
@@ -96,31 +96,32 @@ UNO_OVERLAY_OUTPUT=https://app.overlays.uno/output/<overlay output token>
 
 Features:
 ---------
-*   **Complete Match Control:**
-    *   Manage points, sets, and timeouts for both teams.
-    *   Indicate the serving team.
-    *   Undo functionality for points and timeouts.
-    *   Support for both indoor (25 points, 5 sets) and beach volleyball (21 points, 3 sets) modes.
-*   **Advanced Customization:**
-    *   Customize team names, logos, and colors.
-    *   Adjust the scoreboard's dimensions (height, width) and position (horizontal, vertical).
-    *   Apply a glossy/gradient effect to the scoreboard.
-    *   Show or hide team logos.
-    *   Lock team colors and icons to prevent accidental changes.
-    *   Create and load custom themes to quickly switch between different styles.
-*   **User and Overlay Management:**
-    *   Support for multiple users with password protection.
-    *   Control multiple overlays from a single instance of the application.
-    *   Select from a list of predefined overlays.
-*   **User-Friendly Interface:**
-    *   Dark mode support (auto, on, off).
-    *   Auto-hide the scoreboard during gameplay.
-    *   Automatically switch to a simplified view showing only the current set.
-    *   Internationalization support (English and Spanish).
-*   **Flexible Deployment:**
-    *   Run locally as a Python application.
-    *   Deploy as a Docker container.
-    *   Expose the application to the internet using ngrok-like services.
+* **Complete Match Control:**
+    * Manage points, sets, and timeouts for both teams.
+    * Indicate the serving team.
+    * Undo functionality for the last action performed.
+    * Support for both indoor (25 points, 5 sets) and beach volleyball (21 points, 3 sets) modes.
+    * **Long press** a point or set button to open a dialog and enter a custom value directly.
+* **Advanced Customization:**
+    * Customize team names, logos, and colors.
+    * Adjust the scoreboard's dimensions (height, width) and position (horizontal, vertical).
+    * Apply a glossy/gradient effect to the scoreboard.
+    * Show or hide team logos.
+    * Lock team colors and icons to prevent accidental changes.
+    * Create and load custom themes to quickly switch between different styles.
+* **User and Overlay Management:**
+    * Support for multiple users with password protection.
+    * Control multiple overlays from a single instance of the application.
+    * Select from a list of predefined overlays.
+* **User-Friendly Interface:**
+    * Dark mode support (auto, on, off).
+    * Auto-hide the scoreboard during gameplay.
+    * Automatically switch to a simplified view showing only the current set.
+    * Internationalization support (English and Spanish).
+* **Flexible Deployment:**
+    * Run locally as a Python application.
+    * Deploy as a Docker container.
+    * Expose the application to the internet using ngrok-like services.
 
 
 Building docker image:
